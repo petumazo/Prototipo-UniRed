@@ -1,0 +1,211 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.btn { display: inline-block; *display: inline; *zoom: 1; padding: 4px 10px 4px; font-size: 13px; line-height: 18px; color: #333333; text-align: center;text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75); vertical-align: middle; background-color: #f5f5f5; background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6); background-image: -ms-linear-gradient(top, #ffffff, #e6e6e6); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6)); background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6); background-image: -o-linear-gradient(top, #ffffff, #e6e6e6); background-image: linear-gradient(top, #ffffff, #e6e6e6); background-repeat: repeat-x; filter: progid:dximagetransform.microsoft.gradient(startColorstr=#ffffff, endColorstr=#e6e6e6, GradientType=0); border-color: #e6e6e6 #e6e6e6 #e6e6e6; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); border: 1px solid #e6e6e6; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); cursor: pointer; *margin-left: .3em; }
+.btn:hover, .btn:active, .btn.active, .btn.disabled, .btn[disabled] { background-color: #e6e6e6; }
+.btn-large { padding: 9px 14px; font-size: 15px; line-height: normal; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 30PX; }
+.btn:hover { color: #333333; text-decoration: none; background-color: #e6e6e6; background-position: 0 -15px; -webkit-transition: background-position 0.1s linear; -moz-transition: background-position 0.1s linear; -ms-transition: background-position 0.1s linear; -o-transition: background-position 0.1s linear; transition: background-position 0.1s linear; }
+.btn-primary, .btn-primary:hover { text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); color: #ffffff; }
+.btn-primary.active { color: rgba(255, 255, 255, 0.75); }
+.btn-primary { background-color: #4a77d4; background-image: -moz-linear-gradient(top, #6eb6de, #4a77d4); background-image: -ms-linear-gradient(top, #6eb6de, #4a77d4); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#6eb6de), to(#4a77d4)); background-image: -webkit-linear-gradient(top, #6eb6de, #4a77d4); background-image: -o-linear-gradient(top, #6eb6de, #4a77d4); background-image: linear-gradient(top, #6eb6de, #4a77d4); background-repeat: repeat-x; filter: progid:dximagetransform.microsoft.gradient(startColorstr=#6eb6de, endColorstr=#4a77d4, GradientType=0);  border: 1px solid #3762bc; text-shadow: 1px 1px 1px rgba(0,0,0,0.4); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.5); }
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] { filter: none; background-color: #4a77d4; }
+.btn-block { width: 20%; display:block; }
+
+
+
+html { width: 100%; height:100%; }
+
+body { 
+	font-family: 'Open Sans', sans-serif;
+	background: #092756;
+	background: -moz-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%),-moz-linear-gradient(top,  rgba(57,173,219,.25) 0%, rgba(42,60,87,.4) 100%), -moz-linear-gradient(-45deg,  #670d10 0%, #092756 100%);
+	background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -webkit-linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -webkit-linear-gradient(-45deg,  #670d10 0%,#092756 100%);
+	background: -o-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -o-linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -o-linear-gradient(-45deg,  #670d10 0%,#092756 100%);
+	background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -ms-linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -ms-linear-gradient(-45deg,  #670d10 0%,#092756 100%);
+	background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), linear-gradient(to bottom,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), linear-gradient(135deg,  #670d10 0%,#092756 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3E1D6D', endColorstr='#092756',GradientType=1 );
+}
+
+
+.unired-logo {
+    color: rgb(0, 0, 0) !important; 
+    text-shadow:0 0 10px rgb(255, 255, 255); 
+    letter-spacing:1px; 
+    text-align:left; 
+	margin-right: 10px !important;
+}
+
+.nombre-urbanizacion{
+	color: #fff; 
+	text-shadow: 0 0 10px rgba(0,0,0,0.3);
+	letter-spacing:1px;
+}
+
+
+header{
+    height: 40px;
+    background-color: #001b40;
+    min-height: initial;
+	width: 100%;	
+	position: absolute;	
+	top: 0px;
+	left: 0px;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.user-logo{
+	display: flex;
+	height: 40px;
+	align-items: center;
+    cursor:grab;
+}
+
+.notification-logo{
+	display: flex;
+	height: 40px;
+	align-items: center;
+}
+
+.sub-header{
+	background-color: #00377d;
+	width: 102%;
+	position: relative;
+	left: -8px;
+	margin-top: 40px;
+	height: 74px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.sub-header h1{
+	margin: 0px;
+	padding: 15px;
+}
+
+.logo{
+	height: 60%;
+	padding: 0px 10px;
+}
+
+.nav-bar{
+	background-color: #ffffff;
+	position: relative;
+	padding-top: 15px;
+	padding-left: 12px;
+    padding-right: 12px;
+	width: 25%;
+	float: left;
+	font-size: 16px;
+    line-height: 1.42857;
+	left: -8px;
+	height: 100vh;
+	box-shadow: 0 2px 7px 0 #b0b0b0;
+}
+
+li {	
+	list-style:none;
+	list-style-type:none;
+
+}
+
+ul{
+	padding-inline-start: 0px;
+}
+
+.info-box{
+	position: relative;
+	left: 5%;
+	margin-top: 30px;
+	height: 301px;
+	width: 650px;
+
+	background-image: url("https://www.gerenciadeedificios.com/images/stories/GDE/users/sjaramillo1/inteligentes.jpg");
+	background-color: rgb(57, 152, 180);
+	opacity: 0.5;
+	background-repeat: no-repeat; 
+	background-position: center center;
+	
+    padding: 1.5em;
+    margin-bottom: 15px;
+	box-shadow: 0 2px 7px 0 #b0b0b0;
+	display: flex;
+	flex-direction: column;
+	
+    align-items: center;
+    justify-content: center;
+    text-shadow:0 0 10px rgba(0, 66, 68, 0.589); 
+    letter-spacing:1px; 
+}
+
+.info-box h1, h2{
+    color: rgb(0, 0, 0) !important; 
+    text-shadow:0 0 10px rgb(255, 255, 255); 
+}
+
+
+
+.nav-link {
+	color: #48c7f4;
+	padding-left: 15px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.nav-link:hover{
+	background-color: rgba(177, 174, 174, 0.74);
+	color: #00377d;
+}
+
+#container-info-facturacion {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.info-facturacion{
+	font-weight: bolder;
+	margin-block-end: 0.5em;
+}
+
+#valores-facturacion{
+	justify-self: center;
+}
+
+h2{
+	font-weight: lighter;
+}
+
+
+#btn-container{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: -15px;
+}
+
+.submenu-notificaciones{
+	position: absolute;
+	background: #333;
+	top: 15px;
+	right: 15px;
+	width: 20%;
+	z-index: 100;
+	display: none;
+	border-radius: 5px;
+}
+
+.submenu-notificaciones li{
+	display: block;
+	padding: 15px;
+}
+
+.submenu-notificaciones li:hover{
+	display: block;
+	padding: 15px;
+	background-color: rgb(170, 173, 173);
+}
+
+.notification-logo:hover .submenu-notificaciones{
+	display: block;
+}
+

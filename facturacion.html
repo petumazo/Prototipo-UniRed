@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style/facturacion.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="user-logo"  id="perfil-usuario">
+                <img src="/image/user-logo.png" alt="logo user" class="logo">
+                <p>1301</p> 
+            </div>
+            <div class="notification-logo">
+                <img src="image/notificacion-logo.png" alt="logo notificaciones" class="logo">
+                <ul class="submenu-notificaciones">
+                    <li>Recuerda agendar tu visita de fumigación</li>
+                    <li>Ya está lista la factura de administración</li>
+                    <li>120 Municipios con toque de queda</li>
+                    <li>Obstrucción en los chute de basura</li>
+                    <li>"AUTOCUIDADO" Recomendaciones covid-19</li>
+                </ul>
+            </div>            
+        </header>
+        <div class="sub-header">
+            <h1 class="nombre-urbanizacion">Paraiso de Colores</h1>
+            <h1 class="unired-logo">UniRed</h1>
+        </div>
+        <div class="nav-bar">
+            <ul>
+                <li class="nav-link" id="facturacion">Facturacion</li>
+                <li class="nav-link" id="asamble">Asamblea</li>
+                <li class="nav-link" id="zonas-comunes">Zonas Comunes</li>
+            </ul>
+        </div>
+        <div class="info-box">
+            <h2>Valor a pagar</h2>
+            <h1>$ 155.400</h1>
+            <div id="container-info-facturacion">
+                <div class="info-facturacion">
+                    <ul>
+                        <li>Fecha de vencimiento:</li>
+                        <li>Fecha de Generación:</li>
+                        <li>Referencia de Pago:</li>
+                        <li>Estado:</li>
+                    </ul>
+                </div>
+                <div id="valores-facturacion">
+                    <ul>
+                        <li>12/12/2021</li>
+                        <li>12/11/2021</li>
+                        <li>1545-6</li>
+                        <li>Pago pendiente</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="info-facturacion">Ver última factura:</p>
+            <h2 id="pdf"> <a href="/image/1301.pdf" target="_black">PDF</a></h2>
+            <div id="btn-container">
+                <button type="button" class="btn btn-primary btn-block btn-large" id="btnIngresar"><a href="https://portal.psepagos.com.co/web/bancolombia/buscador" target="_blank">Pagar</a></button>
+            </div>
+        </div>
+        <div class="chat-box">
+
+        </div>
+        <script src="js/navegacion.js"></script>
+    </body>
+</html>

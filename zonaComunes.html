@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style/zonasComunes.css">
+    </head>
+    <body>
+        <header>
+            <div class="user-logo"  id="perfil-usuario">
+                <img src="/image/user-logo.png" alt="logo user" class="logo">
+                <p>1301</p> 
+            </div>
+            <div class="notification-logo">
+                <img src="image/notificacion-logo.png" alt="logo notificaciones" class="logo">
+                <ul class="submenu-notificaciones">
+                    <li>Recuerda agendar tu visita de fumigación</li>
+                    <li>Ya está lista la factura de administración</li>
+                    <li>120 Municipios con toque de queda</li>
+                    <li>Obstrucción en los chute de basura</li>
+                    <li>"AUTOCUIDADO" Recomendaciones covid-19</li>
+                </ul>
+            </div>            
+        </header>
+        <div class="sub-header">
+            <h1 class="nombre-urbanizacion">Paraiso de Colores</h1>
+            <h1 class="unired-logo">UniRed</h1>
+        </div>
+        <div class="nav-bar">
+            <ul>
+                <li class="nav-link" id="facturacion">Facturacion</li>
+                <li class="nav-link" id="asamble">Asamblea</li>
+                <li class="nav-link" id="zonas-comunes">Zonas Comunes</li>
+            </ul>
+        </div>
+        <div class="info-box">
+            <h2>Seleccione la zona común</h2>
+            <select name="zonas_comunes" id="seleccionadorZonasComunes">
+                <option value="gym">Gimnasio</option>
+                <option value="piscina">Piscina</option>
+                <option value="salonSocial">Salón Social</option>
+            </select>
+
+            <div id="container-info-facturacion">
+                <div class="info-facturacion">
+                    <ul>
+                        <li>Ocupación:</li>
+                        <li>Temperatura:</li>
+                        <li>Horario:</li>
+                        <li>Maquinas Disponibles:</li>
+                    </ul>
+                </div>
+                <div id="valores-facturacion">
+                    <ul>
+                        <li>5 personas</li>
+                        <li>23°C</li>
+                        <li>1545-6</li>
+                        <li>Multifuncional, caminadora, bicicleta, máquina elíptica.</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div id="btn-container">
+                <input type="button" class="btn btn-primary btn-block btn-large" id="btnIngresar" value="Reservar">
+            </div>
+        </div>
+        <div class="chat-box">
+
+        </div>
+        <script src="js/navegacion.js"></script>
+    </body>
+</html>

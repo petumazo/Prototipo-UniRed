@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style/asamble.css">
+    </head>
+    <body>
+        <header>
+            <div class="user-logo" id="perfil-usuario">
+                <img src="/image/user-logo.png" alt="logo user" class="logo">
+                <p>1301</p> 
+            </div>
+            <div class="notification-logo">
+                <img src="image/notificacion-logo.png" alt="logo notificaciones" class="logo">
+                <ul class="submenu-notificaciones">
+                    <li>Recuerda agendar tu visita de fumigación</li>
+                    <li>Ya está lista la factura de administración</li>
+                    <li>120 Municipios con toque de queda</li>
+                    <li>Obstrucción en los chute de basura</li>
+                    <li>"AUTOCUIDADO" Recomendaciones covid-19</li>
+                </ul>
+            </div>            
+        </header>
+        <div class="sub-header">
+            <h1 class="nombre-urbanizacion">Paraiso de Colores</h1>
+            <h1 class="unired-logo">UniRed</h1>
+        </div>
+        <div class="nav-bar">
+            <ul>
+                <li class="nav-link" id="facturacion">Facturacion</li>
+                <li class="nav-link" id="asamble">Asamblea</li>
+                <li class="nav-link" id="zonas-comunes">Zonas Comunes</li>
+            </ul>
+        </div>
+        <div class="info-box">
+            <h2>Asamblea General</h2>
+            <div class="container-info-facturacion">
+                <div class="info-facturacion">
+                    <ul>
+                        <li>Fecha proxima asamblea:</li>
+                        <li>link reunión zoom:</li>
+                        <br>
+                        <li>ID reunion zoom:</li>
+                        <li>Contraseña zoom de reunión:</li>
+                    </ul>
+                </div>
+                <div id="valores-facturacion">
+                    <ul>
+                        <li>12/12/2021</li>
+                        <li><a href="https://us05web.zoom.us/j/2434252657?pwd=NTJBL0VLRURLOEQweG9ZZWxyRDVuZz09" target="_blank">https://us05web.zoom.us/j/2434252657?pwd=NTJBL0VLRURLOEQweG9ZZWxyRDVuZz09</a></li>
+                        <li>243-425-2657</li>
+                        <li>wG86rY</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="container-votaciones">
+                <u><p>Tema de votación:</p></u>
+                <div class="containerInput">
+                    <input type="text" name="temaDeVotacion" class="barra-tema-votacion" readonly="readonly" value="Incluir en el presupuesto la app UniRed para la urbanización"/>
+                </div>
+                <div class="container-btn-votacion">
+                    <input type="button" class="btn btn-primary btn-block btn-large" id="btnSi" value="Si">
+                    <input type="button" class="btn btn-primary btn-block btn-large" id="btnNo" value="No">
+                    <input type="button" class="btn btn-primary btn-block btn-large" id="btnBlanco" value="Ns/Nr">
+                </div>
+                          
+            </div>
+
+
+        </div>
+        <div class="chat-box">
+
+        </div>
+        <script src="js/navegacion.js"></script>
+    </body>
+</html>
